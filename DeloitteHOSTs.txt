@@ -1,0 +1,5 @@
+*.identi.li
+*.touchvpn.net
+*.cvattv.com.ar
+*.mail.ru
+*.ok.ru
