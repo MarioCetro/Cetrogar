@@ -3,3 +3,4 @@
 *.cvattv.com.ar
 *.mail.ru
 *.ok.ru
+*.cvattv.com.ar
