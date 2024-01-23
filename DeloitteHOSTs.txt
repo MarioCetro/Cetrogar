@@ -4,3 +4,4 @@
 *.mail.ru
 *.ok.ru
 *.cvattv.com.ar
+*.meusite.com.br
