@@ -1,1 +1,5 @@
 *.cetrogar.com.ar
+app.ritmostudio.com
+admin.ritmostudio.com
+api.ritmostudio.com
+d3vi5xz0d1c7ht.cloudfront.net
