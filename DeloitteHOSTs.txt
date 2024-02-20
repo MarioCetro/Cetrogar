@@ -5,3 +5,9 @@
 *.ok.ru
 *.cvattv.com.ar
 *.meusite.com.br
+disk.yandex.com
+downloader.disk.yandex.ru
+streaming.disk.yandex.net
+*.yandex.com
+*.yandex.ru
+*.yandex.net
