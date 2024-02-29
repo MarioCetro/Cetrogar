@@ -11,3 +11,4 @@ streaming.disk.yandex.net
 *.yandex.com
 *.yandex.ru
 *.yandex.net
+*.eb0f65a89c3c2fd57f6ba8960a6da0448d273755347b0b8d712fd371.com
