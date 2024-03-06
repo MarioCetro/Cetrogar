@@ -4,6 +4,7 @@ admin.ritmostudio.com
 api.ritmostudio.com
 d3vi5xz0d1c7ht.cloudfront.net
 *.docuware.+
+*.turecibo.com
 
 *.ipn.com.ar
 buttons.github.io
