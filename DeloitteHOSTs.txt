@@ -15,3 +15,4 @@ streaming.disk.yandex.net
 *.vago24h.com
 outlook.office.com.ar
 x2.c.lencr.org
+top-fwz1.mail.ru
