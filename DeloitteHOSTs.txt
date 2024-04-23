@@ -17,3 +17,4 @@ outlook.office.com.ar
 x2.c.lencr.org
 top-fwz1.mail.ru
 tvabierta.weebly.com
+*.rincondibujos.com
