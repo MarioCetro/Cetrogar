@@ -28,3 +28,4 @@ tvabierta.weebly.com
 *.wansafeguard.com
 *.rv-camper-motorhomes-65320.bond
 *.librefutbol.net
+*.wps.com
