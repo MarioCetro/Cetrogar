@@ -6,6 +6,8 @@ d3vi5xz0d1c7ht.cloudfront.net
 *.docuware.+
 *.turecibo.com
 *.hrider.net
+seti.afip.gob.ar
+*.afip.gob.ar
 
 *.ipn.com.ar
 buttons.github.io
