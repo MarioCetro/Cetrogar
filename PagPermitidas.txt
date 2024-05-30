@@ -8,6 +8,7 @@ d3vi5xz0d1c7ht.cloudfront.net
 *.hrider.net
 seti.afip.gob.ar
 *.afip.gob.ar
+beneficios.cetroclub.com
 
 *.ipn.com.ar
 buttons.github.io
