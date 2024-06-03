@@ -9,6 +9,7 @@ d3vi5xz0d1c7ht.cloudfront.net
 seti.afip.gob.ar
 *.afip.gob.ar
 beneficios.cetroclub.com
+pr.easypromosapp.com
 
 *.ipn.com.ar
 buttons.github.io
