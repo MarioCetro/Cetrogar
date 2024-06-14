@@ -10,6 +10,8 @@ seti.afip.gob.ar
 *.afip.gob.ar
 beneficios.cetroclub.com
 pr.easypromosapp.com
+juego.prodecst.com
+
 
 *.ipn.com.ar
 buttons.github.io
