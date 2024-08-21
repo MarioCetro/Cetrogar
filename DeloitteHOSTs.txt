@@ -44,3 +44,5 @@ ilovetehpussay.host4star.com
 *.modeloejemplar.com
 *.plutotv.net
 *.clevelandwash.org
+*.smart-beds-73172.bond
+*.drain-pipe-cleaning-93629.bond
