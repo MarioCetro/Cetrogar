@@ -48,3 +48,4 @@ ilovetehpussay.host4star.com
 *.drain-pipe-cleaning-93629.bond
 +.carga.com.co
 +.calcularsueldo.com.ar
+*.read.ai
