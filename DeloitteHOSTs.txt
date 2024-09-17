@@ -49,3 +49,5 @@ ilovetehpussay.host4star.com
 +.carga.com.co
 +.calcularsueldo.com.ar
 *.read.ai
+code.yengo.com
+*.yengo.com
