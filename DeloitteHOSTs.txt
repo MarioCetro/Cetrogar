@@ -1,3 +1,4 @@
+*.download1001.site
 *.identi.li
 *.touchvpn.net
 *.cvattv.com.ar
