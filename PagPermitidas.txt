@@ -1,3 +1,4 @@
+ydt.ymcapps.net
 *.cetrogar.com.ar
 app.ritmostudio.com
 admin.ritmostudio.com
