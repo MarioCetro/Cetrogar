@@ -1,3 +1,4 @@
+cetrogar.my.salesforce.com
 ydt.ymcapps.net
 *.cetrogar.com.ar
 app.ritmostudio.com
@@ -12,8 +13,6 @@ seti.afip.gob.ar
 beneficios.cetroclub.com
 pr.easypromosapp.com
 *.prodecst.com
-
-
 *.ipn.com.ar
 buttons.github.io
 cdn.cetrogar.com.ar
