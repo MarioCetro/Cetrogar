@@ -1,4 +1,7 @@
 cetrogar.my.salesforce.com
+cetrogar.lightning.force.com
+*.salesforce.com
+*.force.com
 ydt.ymcapps.net
 *.cetrogar.com.ar
 app.ritmostudio.com
