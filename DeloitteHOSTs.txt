@@ -1,4 +1,4 @@
-
+*.rodas.app
 *.adblock-live.com
 1.amino-vertical.top
 *.download1001.site
