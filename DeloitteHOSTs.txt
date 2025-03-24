@@ -1,3 +1,5 @@
+
+*.golazohd.com
 static-alisz-rs.wondershare.cn
 *.rodas.app
 *.adblock-live.com
