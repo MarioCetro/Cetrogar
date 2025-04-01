@@ -1,3 +1,5 @@
+*.masinherramientas.com
+*.fish-cloud-jar.us
 *.vk.com
 *.yiche.com
 *.golazohd.com
