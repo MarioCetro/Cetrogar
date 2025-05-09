@@ -1,92 +1,87 @@
-<!DOCTYPE html>
-<html>
-
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ping a server in javascript</title>
-
-  <style>
-    .responded {
-    color:green;
+<html><head>
+        <style>
+            * {
+  font-family: Calibri, Arial !important;
 }
-.checking,.unchecked {
-    color:#FF8C00;
+.net-err {
+  width: 100%;
+  display: block;
+  z-index: 999;
+  padding: 15px 10px;
+  background: rgb(255, 9, 9);
+  color: #fff;
+  font-weight: bold !important;
+  text-align: center;
+  position: fixed;
+  top: -1px;
+  left: -1px;
+  border: 1px solid #ddd;
+  font-size: 30px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* IE */
 }
-.timeout {
-    color:red;
+.hide {
+  color: #F00;
+  display: hide;
 }
-}
-  </style>
+        </style>
+    </head>
+    <body>
+    
 
-  
-</head>
-<body>
-  <ul data-bind="foreach:servers">
-    <li> <a href="#" data-bind="text:name,attr:{href: 'http://'+name}">tester</a> <span data-bind="text:status,css:status"></span>
 
-    </li>
-</ul>
 
-  <script>
-    function ping(ip, callback) {
+  <title>Status</title>
 
-    if (!this.inUse) {
-        this.status = 'unchecked';
-        this.inUse = true;
-        this.callback = callback;
-        this.ip = ip;
-        var _that = this;
-        this.img = new Image();
-        this.img.onload = function () {
-            _that.inUse = false;
-            _that.callback('responded');
 
-        };
-        this.img.onerror = function (e) {
-            if (_that.inUse) {
-                _that.inUse = false;
-                _that.callback('responded', e);
-            }
 
-        };
-        this.start = new Date().getTime();
-        this.img.src = "http://" + ip;
-        this.timer = setTimeout(function () {
-            if (_that.inUse) {
-                _that.inUse = false;
-                _that.callback('timeout');
-            }
-        }, 1500);
-    }
-}
-var PingModel = function (servers) {
-    var self = this;
-    var myServers = [];
-    ko.utils.arrayForEach(servers, function (location) {
-        myServers.push({
-            name: location,
-            status: ko.observable('unchecked')
-        });
-    });
-    self.servers = ko.observableArray(myServers);
-    ko.utils.arrayForEach(self.servers(), function (s) {
-        s.status('checking');
-        new ping(s.name, function (status, e) {
-            s.status(status);
-        });
-    });
-};
-var komodel = new PingModel(['172.16.0.15',
-    '172.16.0.14',
-    '192.168.2.2',
-    '192.168.3.2',
-    '192.168.6.2',
-    '172.19.1.12',
-    '127.0.0.1'
-    ]);
-ko.applyBindings(komodel);
-  </script>
-</body>
-</html>
+  <h1>This page will be tracking your internet connection</h1>
+  <h2>You will be notified when you loose connection</h2>
+  <h3>e.g. Go to File &gt; Work Offline</h3>
+
+
+
+        <script type="text/javascript">
+            (function(win) {
+  var _ = {};
+
+  _.win = win;
+
+  _.doc = _.win.document;
+
+  _.status = _.doc.createElement('div');
+  _.status.className = "hide";
+  _.status.innerHTML = "You are now offline !";
+
+  _.doc.getElementsByTagName('body')[0].appendChild(_.status);
+
+  _.img = new Image();
+
+  _.loop = function() {
+    _.win.setTimeout(_.nextSrc, 5000);
+  };
+
+  _.onLine = function() {
+    _.status.className = "hide"; // hide
+    _.loop();
+  };
+
+  _.offLine = function() {
+    _.status.className = "net-err"; // show
+    _.loop();
+  };
+
+  _.img.onload = _.onLine;
+  _.img.onerror = _.offLine;
+
+  _.nextSrc = function() {
+    _.img.src = "https://mariocetro.github.io/Cetrogar/img/bn_cetrogar.jpg" + _.win.Math.random();
+  };
+
+  _.loop();
+})(window);
+        </script><div class="net-err">You are now offline !</div>
+    
+
+</body></html>
